@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (menuToggle && nav) {
         menuToggle.addEventListener('click', () => {
             nav.classList.toggle('active');
-            
+
             // Toggle hamburger animation
             const bars = menuToggle.querySelectorAll('.menu-toggle__bar');
-            
+
             if (nav.classList.contains('active')) {
                 bars[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
                 bars[1].style.opacity = '0';
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
         navLinks.forEach(link => {
             link.addEventListener('click', () => {
                 nav.classList.remove('active');
-                
+
                 // Reset hamburger
                 const bars = menuToggle.querySelectorAll('.menu-toggle__bar');
                 bars[0].style.transform = 'none';
