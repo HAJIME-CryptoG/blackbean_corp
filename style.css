@@ -4,8 +4,8 @@
     --accent-cyan: #00f3ff;
     --accent-purple: #bc13fe;
     --card-bg: rgba(255, 255, 255, 0.05);
-    --font-main: 'Inter', sans-serif;
-    --font-header: 'Orbitron', sans-serif;
+    --font-main: 'Inter', 'Noto Sans JP', sans-serif;
+    --font-header: 'Orbitron', 'Noto Sans JP', sans-serif;
 }
 
 * {
