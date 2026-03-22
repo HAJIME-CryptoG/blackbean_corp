@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ | Black Bean.inc</title>
+    <meta name="description"
+        content="Black Bean.incへのお問い合わせはこちら。AI・DX・Web3コンサルティングに関するご相談をお待ちしています。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Orbitron:wght@400;700;900&family=Noto+Sans+JP:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding-top: 100px;
+        }
+
+        .contact-inner {
+            max-width: 700px;
+            margin: 0 auto;
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        .contact-lead {
+            font-size: 1.1rem;
+            font-weight: 300;
+            opacity: 0.8;
+            margin-bottom: 60px;
+            line-height: 1.8;
+        }
+
+        .contact-block {
+            background: var(--card-bg);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 50px;
+        }
+
+        .contact-label {
+            font-family: var(--font-header);
+            font-size: 0.75rem;
+            letter-spacing: 3px;
+            color: var(--accent-purple);
+            margin-bottom: 12px;
+        }
+
+        .contact-email-link {
+            display: inline-block;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--accent-cyan);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(0, 243, 255, 0.3);
+            padding-bottom: 4px;
+            transition: border-color 0.3s, text-shadow 0.3s;
+        }
+
+        .contact-email-link:hover {
+            border-color: var(--accent-cyan);
+            text-shadow: 0 0 15px rgba(0, 243, 255, 0.6);
+        }
+
+        .contact-note {
+            margin-top: 30px;
+            font-size: 0.85rem;
+            opacity: 0.5;
+            line-height: 1.8;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            color: var(--text-color);
+            text-decoration: none;
+            font-size: 0.9rem;
+            opacity: 0.6;
+            transition: opacity 0.3s;
+            letter-spacing: 1px;
+        }
+
+        .back-link:hover {
+            opacity: 1;
+            color: var(--accent-cyan);
+        }
+
+        @media (max-width: 768px) {
+            .contact-block {
+                padding: 30px 20px;
+            }
+
+            .contact-email-link {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="noise-overlay"></div>
+
+    <header>
+        <div class="logo"><a href="index.html" style="text-decoration:none;color:inherit;">Black Bean<span>.inc</span></a></div>
+        <nav>
+            <ul>
+                <li><a href="index.html#hero">トップ</a></li>
+                <li><a href="index.html#services">事業内容</a></li>
+                <li><a href="index.html#company">会社概要</a></li>
+                <li><a href="contact.html" class="btn-contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <div class="contact-inner">
+            <h2><span class="gradient-text">CONTACT</span></h2>
+            <p class="contact-lead">
+                サービスに関するご質問・ご相談、<br>
+                お見積もりのご依頼など、お気軽にご連絡ください。
+            </p>
+            <div class="contact-block">
+                <p class="contact-label">EMAIL</p>
+                <a class="contact-email-link" href="mailto:tanba@blackbean.biz">tanba@blackbean.biz</a>
+                <p class="contact-note">
+                    通常2〜3営業日以内にご返信いたします。<br>
+                    お急ぎの場合はその旨をメール本文にご記載ください。
+                </p>
+            </div>
+            <a class="back-link" href="index.html">← トップページへ戻る</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">Black Bean<span>.inc</span></div>
+            <p>Japan // Cyberspace</p>
+            <p class="copyright">&copy; 2026 Black Bean.inc All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
